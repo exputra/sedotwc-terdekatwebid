@@ -1,4 +1,4 @@
-const primaryPhone = process.env.NEXT_PUBLIC_PHONE_PRIMARY || "6285691135601";
+import { publicContact, publicWhatsAppUrl } from '@/config/public';
 
 export const siteConfig = {
 	name: "Sedot WC Dua Sodara",
@@ -6,12 +6,12 @@ export const siteConfig = {
 	ogImage: "https://www.sedotwcduasodara.web.id/og.jpg",
 	description:
 		"Sedot WC Dua Sodara - Layanan sedot WC profesional, cepat, dan terpercaya 24 jam setiap hari di Pontianak",
-	phone: process.env.NEXT_PUBLIC_PHONE_PRIMARY || "6285691135601",
-	phoneSecondary: process.env.NEXT_PUBLIC_PHONE_SECONDARY || "085691135601",
+	phone: publicContact.primaryPhone,
+	phoneSecondary: publicContact.secondaryPhone,
 	website: "https://www.sedotwcduasodara.web.id/",
 	address: "Melayani Jabodetabek",
 	links: {
-		whatsapp: `https://api.whatsapp.com/send?phone=${primaryPhone}`,
+		whatsapp: publicWhatsAppUrl,
 	},
 };
 

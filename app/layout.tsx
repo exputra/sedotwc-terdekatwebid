@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import Script from 'next/script';
 import { ThemeProvider } from 'next-themes';
 import { TooltipProvider } from '@radix-ui/react-tooltip';
+import { publicContact } from '@/config/public';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     template: '%s | Sedot WC Dua Sodara',
     default: 'Sedot WC Dua Sodara - Layanan Profesional 24 Jam',
   },
-  description: 'Layanan penyedotan WC profesional, cepat, dan terpercaya 24 jam. Bersih, Cepat, Profesional. Hubungi kami di 6285691135601 atau 085691135601',
+  description: `Layanan penyedotan WC profesional, cepat, dan terpercaya 24 jam. Bersih, Cepat, Profesional. Hubungi kami di ${publicContact.primaryPhone} atau ${publicContact.secondaryPhone}`,
   keywords: 'sedot WC, sedot limbah, sedot lumpur, cuci tangki air, layanan WC Pontianak',
   icons: {
     icon: '/logo.png',
