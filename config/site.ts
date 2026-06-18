@@ -1,14 +1,14 @@
 import { publicContact, publicWhatsAppUrl } from '@/config/public';
 
 export const siteConfig = {
-	name: "Sedot WC Dua Sodara",
-	url: "https://www.sedotwcduasodara.web.id/",
-	ogImage: "https://www.sedotwcduasodara.web.id/og.jpg",
+	name: "SedotWC Terdekat",
+	url: "https://www.sedotwc-terdekat.web.id/",
+	ogImage: "https://www.sedotwc-terdekat.web.id/og.jpg",
 	description:
-		"Sedot WC Dua Sodara - Layanan sedot WC profesional, cepat, dan terpercaya 24 jam setiap hari di Pontianak",
+		"SedotWC Terdekat - Layanan sedot WC profesional, cepat, dan terpercaya 24 jam setiap hari",
 	phone: publicContact.primaryPhone,
-	phoneSecondary: publicContact.secondaryPhone,
-	website: "https://www.sedotwcduasodara.web.id/",
+	phoneHref: publicContact.primaryPhoneHref,
+	website: "https://www.sedotwc-terdekat.web.id/",
 	address: "Melayani Jabodetabek",
 	links: {
 		whatsapp: publicWhatsAppUrl,

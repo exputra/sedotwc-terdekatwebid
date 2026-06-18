@@ -1,6 +1,7 @@
 export const publicContact = {
-	primaryPhone: '628212134261',
-	secondaryPhone: '08212134261',
+	primaryPhone: '+62 812-1315-4039',
+	primaryPhoneHref: '+6281213154039',
+	whatsappPhone: '6281213154039',
 };
 
-export const publicWhatsAppUrl = `https://api.whatsapp.com/send?phone=${publicContact.primaryPhone}`;
+export const publicWhatsAppUrl = `https://api.whatsapp.com/send?phone=${publicContact.whatsappPhone}`;

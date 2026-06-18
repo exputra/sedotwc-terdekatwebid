@@ -14,7 +14,7 @@ const HeroNew = () => {
   };
 
   const handleCall = () => {
-    window.location.href = `tel:${siteConfig.phone}`;
+    window.location.href = `tel:${siteConfig.phoneHref}`;
   };
 
   return (
@@ -22,7 +22,7 @@ const HeroNew = () => {
       {/* Background Layer */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/hero-background-kuning.png"
+          src="/hero-background-ijo.png"
           alt="Armada Sedot WC"
           aria-hidden="true"
           className="w-full h-full object-cover object-[75%_center] lg:object-right"
@@ -79,7 +79,7 @@ const HeroNew = () => {
           >
             <a 
               id="hero-call-button"
-              href={`tel:${siteConfig.phone}`}
+              href={`tel:${siteConfig.phoneHref}`}
               className="inline-flex items-center justify-center gap-2.5 bg-amber-500 hover:bg-amber-600 text-white px-6 py-3.5 rounded-xl font-semibold transition-all shadow-lg shadow-amber-500/20 hover:-translate-y-1 text-base w-full sm:w-auto sm:min-w-[200px]" 
             >
               <Phone className="w-5 h-5 fill-current" />

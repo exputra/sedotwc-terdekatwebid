@@ -12,7 +12,7 @@ const FAQSedotWC = () => {
     },
     {
       question: 'Bagaimana cara menghubungi Anda?',
-      answer: `Anda dapat menghubungi kami melalui WhatsApp, telepon, atau mengisi formulir kontak di website. Nomor kami adalah ${siteConfig.phone} dan ${siteConfig.phoneSecondary}.`,
+      answer: `Anda dapat menghubungi kami melalui WhatsApp, telepon, atau mengisi formulir kontak di website. Nomor kami adalah ${siteConfig.phone}.`,
     },
     {
       question: 'Berapa harga layanan sedot WC?',

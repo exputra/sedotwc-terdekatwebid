@@ -46,7 +46,7 @@ const CTABanner = () => {
             </a>
             <a
               id="cta-call-button"
-              href={`tel:${siteConfig.phone}`}
+              href={`tel:${siteConfig.phoneHref}`}
               className="inline-flex items-center justify-center h-11 w-full sm:w-auto px-8 border border-green-600 text-green-700 hover:bg-green-50 rounded-md font-semibold cursor-pointer gap-2 transition-colors"
             >
               <Phone className="w-5 h-5" />

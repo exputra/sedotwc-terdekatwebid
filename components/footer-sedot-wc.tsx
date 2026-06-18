@@ -87,11 +87,8 @@ const FooterSedotWC = () => {
               <div className="flex items-start gap-2">
                 <Phone className="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" />
                 <div className="flex flex-col">
-                  <a href={`tel:${siteConfig.phone}`} className="text-slate-600 hover:text-green-600 transition-colors">
+                  <a href={`tel:${siteConfig.phoneHref}`} className="text-slate-600 hover:text-green-600 transition-colors">
                     {siteConfig.phone}
-                  </a>
-                  <a href={`tel:${siteConfig.phoneSecondary}`} className="text-slate-600 hover:text-green-600 transition-colors">
-                    {siteConfig.phoneSecondary}
                   </a>
                 </div>
               </div>

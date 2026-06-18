@@ -38,7 +38,7 @@ const ContactSedotWC = () => {
     setIsSubmitting(true);
 
     const message = [
-      'Halo, saya ingin menggunakan layanan Sedot WC Dua Sodara.',
+      'Halo, saya ingin menggunakan layanan SedotWC Terdekat.',
       '',
       `Nama: ${formData.name}`,
       `Email: ${formData.email}`,
@@ -65,8 +65,8 @@ const ContactSedotWC = () => {
     {
       icon: Phone,
       title: 'Telepon / WhatsApp',
-      content: `${siteConfig.phone} / ${siteConfig.phoneSecondary}`,
-      action: () => window.location.href = `tel:${siteConfig.phone}`,
+      content: siteConfig.phone,
+      action: () => window.location.href = `tel:${siteConfig.phoneHref}`,
     },
     {
       icon: Mail,

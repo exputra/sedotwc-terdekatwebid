@@ -8,7 +8,7 @@ const Logo = () => {
       <div className="relative flex-shrink-0 overflow-hidden rounded-2xl bg-[#fff6cc] px-2 py-1.5 shadow-sm ring-1 ring-amber-200/70">
         <Image
           src={logoSrc}
-          alt="Dua Sodara Sedot WC Logo"
+          alt="SedotWC Terdekat Logo"
           width={132}
           height={42}
           className="h-8 w-auto object-contain"

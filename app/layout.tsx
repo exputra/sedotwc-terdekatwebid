@@ -13,17 +13,17 @@ import '@/styles/globals.css';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Sedot WC Dua Sodara',
-    default: 'Sedot WC Dua Sodara - Layanan Profesional 24 Jam',
+    template: '%s | SedotWC Terdekat',
+    default: 'SedotWC Terdekat - Layanan Profesional 24 Jam',
   },
-  description: `Layanan penyedotan WC profesional, cepat, dan terpercaya 24 jam. Bersih, Cepat, Profesional. Hubungi kami di ${publicContact.primaryPhone} atau ${publicContact.secondaryPhone}`,
+  description: `Layanan penyedotan WC profesional, cepat, dan terpercaya 24 jam. Bersih, Cepat, Profesional. Hubungi kami di ${publicContact.primaryPhone}`,
   keywords: 'sedot WC, sedot limbah, sedot lumpur, cuci tangki air, layanan WC Pontianak',
   icons: {
     icon: '/logo.png',
   },
-  metadataBase: new URL('https://www.sedotwcduasodara.web.id/'),
+  metadataBase: new URL('https://www.sedotwc-terdekat.web.id/'),
   openGraph: {
-    title: 'Sedot WC Dua Sodara',
+    title: 'SedotWC Terdekat',
     description: 'Layanan penyedotan WC profesional 24 jam',
     type: 'website',
   },
@@ -42,7 +42,7 @@ export default async function RootLayout({
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NDLV6X6H');`}
+})(window,document,'script','dataLayer','GTM-MX29ZJ7K');`}
         </Script>
       </head>
       <body
@@ -53,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       >
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-NDLV6X6H"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MX29ZJ7K"
             height="0"
             width="0"
             style={{ display: 'none', visibility: 'hidden' }}
