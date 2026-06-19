@@ -1,6 +1,6 @@
 export const publicContact = {
-	primaryPhone: '+62 812-1315-4039',
-	primaryPhoneHref: '+6281213154039',
+	primaryPhone: '08212134261',
+	primaryPhoneHref: '08212134261',
 	whatsappPhone: '628212134261',
 };
 
